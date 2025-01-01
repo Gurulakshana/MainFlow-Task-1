@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72762.jpg") ;
+            background-size: cover;
+            font-family: 'georgia';
+        } 
+        #hero-python {
+            padding-left:800px;
+            padding-bottom: 200px;
+            padding-top: 150px;
+            color: #333;
+            display: inline-block;
+        }
+
+        #hero-python h1 {
+            font-size: 3em;
+            margin-bottom: 20px;  
+        }
+
+        #hero-python p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        #hero-python a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+ 
+        #content {
+            padding: 50px 50px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8em;
+            color: #444;
+            border: 1px;
+            border-style: inset;
+            border-radius: 13px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #con-h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        #content .topic {
+            margin-bottom: 40px;
+        }
+
+        #content .topic h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+
+        #content .topic p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+ 
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 40px;
+            position: absolute;
+            z-index: 1;
+            box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h2 id="title">CODEX</h2>
+        <ul id="nav-con">
+            <li class="nav-a"><a href="index.html">Home</a></li>
+            <li class="nav-a" id="dropdown">
+                <a href="">Services</a>
+                <div id="drop-con">
+                    <a href="web-dev.html">Web Development</a>
+                    <a href="python.html">Python Programming</a>
+                    <a href="data-struc.html">Data Structures</a>
+                </div>
+            </li>
+            <li><a href="register.html">Register</a></li>
+            <li class="nav-a"><a href="about.html">About</a></li>
+            <li class="nav-a"><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+    <img src="https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+     
+    <section id="hero-python">
+        <h1>Learn Python Programming</h1>
+        <p style="width: 500px;">Master one of the most versatile programming languages for data science, web development, AI, and more.</p>
+        <a href="#content" style="background-color: black;">Start Exploring</a>
+    </section>
+    
+    <h2 id="con-h2">Comprehensive Python Programming Curriculum</h2>
+     
+    <section id="content">
+        <div class="topic">
+            <h3>1. Introduction to Python</h3>
+            <p>Start your Python journey with the basics. Topics covered:</p>
+            <ul>
+                <li>Understanding Python syntax and semantics.</li>
+                <li>Setting up your Python environment.</li>
+                <li>Running Python scripts and using interactive mode.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>2. Data Types and Control Flow</h3>
+            <p>Dive deeper into Python's data handling and logical constructs:</p>
+            <ul>
+                <li>Data types: Strings, numbers, lists, tuples, sets, and dictionaries.</li>
+                <li>Control structures: if-else, for loops, while loops.</li>
+                <li>Functions and their importance in modular programming.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>3. Working with Libraries</h3>
+            <p>Leverage Python’s vast ecosystem of libraries:</p>
+            <ul>
+                <li>Using built-in libraries like os, datetime, and math.</li>
+                <li>Introduction to popular third-party libraries like NumPy and Pandas.</li>
+                <li>Installing and managing libraries with pip.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>4. Object-Oriented Programming (OOP)</h3>
+            <p>Master the OOP paradigm in Python:</p>
+            <ul>
+                <li>Understanding classes and objects.</li>
+                <li>Using inheritance, polymorphism, and encapsulation.</li>
+                <li>Building real-world applications using OOP concepts.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>5. Advanced Topics</h3>
+            <p>Take your Python skills to the next level:</p>
+            <ul>
+                <li>Working with files and handling exceptions.</li>
+                <li>Understanding decorators, generators, and context managers.</li>
+                <li>Building web applications using Flask or Django.</li>
+                <li>Exploring Python for data analysis, AI, and machine learning.</li>
+            </ul>
+        </div>
+    </section>
+    <a href="register.html" style="background-color: black; color: white; border-radius: 12px; padding:12px 30px; font-size: large; margin-left: 45%; margin-top: 40px; text-decoration: none;display:inline-block;">Register Now</a>
+    <footer id="footer" style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 CODEX. All Rights Reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Twitter</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p style="display: inline;">Gmail:</p>
+        <a style="text-decoration: underline; color: #007BFF;">codex.gmail.com</a><br>
+        <p style="display: inline;">Ph:</p>
+        <p style="color: #007BFF; display: inline; text-decoration: underline;" >9898987677</p>
+    </footer>
+</body>
+</html>

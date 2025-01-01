@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+</head>
+<style>
+    body{
+        background-image: url("https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        background-position: top;
+        font-family: 'georgia';
+    }
+    #form{
+        box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+        margin-top: 40px;
+        border: 2px inset white;
+        margin-left: 450px;
+        padding: 20px 50px;
+        max-width: fit-content;
+        filter: none;
+        margin-bottom: 90px;
+        backdrop-filter: blur(40px);
+    }
+    input{
+        width: 400px;
+        border-style: solid;
+        height: 25px;
+        border-radius: 5px;
+    }
+    h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+    select{
+        width: 400px;
+        border-style: solid;
+        height: 25px;
+        border-radius: 5px;
+    }
+    p{
+        font-size: large;
+    }
+    button{
+        font-size: large;
+        background-color: black;
+        color: white;
+        padding: 10px 148px;
+        border-radius: 10px;
+        border-style: hidden;
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <section id="form">
+        <form action="">
+            <h1>Register with Codex</h1>
+            <div>
+                <p>Full Name :</p>
+                <input type="text" placeholder="Enter your Full Name" required>
+            </div>
+            <div>
+                <p>Email Address :</p>
+                <input type="email" placeholder="Enter your Email Address" required>
+            </div>
+            <div>
+                <p>Password</p>
+                <input type="password" placeholder="Create a Password" required>
+            </div>
+            <div>
+                <p>Confirm Password</p>
+                <input type="password" placeholder="Confirm your Password" required>
+            </div>
+            <div>
+                <p>Choose Course</p>
+                <select name="" id="">
+                    <option value="" disabled selected>Select a Course</option>
+                    <option value="">Web Development</option>
+                    <option value="">Python Programming</option>
+                    <option value="">Data structures</option>
+                </select>
+            </div>
+            <button type="submit" id="register-btn">Register Now</button>
+        </form>
+        <div class="footer">
+            <p style="text-align: center;">Already have an account? <a href="login.html" style="color:#0056b3;">Login here</a>.</p>
+        </div>
+    </section>
+</body>
+</html>

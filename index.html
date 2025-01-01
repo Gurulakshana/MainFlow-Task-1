@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+            background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72762.jpg") ;
+            background-size: cover;
+            font-family: 'georgia';
+        }
+    #hero{
+        padding-left: 240px; 
+        background-image: url("https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        background-position:left;
+        color: whi;
+        background-repeat: no-repeat;
+        font-size: larger;  
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+    #btn{
+        padding: 10px 20px; 
+        background-color: white; 
+        color: black; 
+        text-decoration: none; 
+        border-radius: 5px;
+    }
+    .p{
+        font-size: 1.2em;
+    }
+    .heading{
+        font-size: 2em;
+    }
+</style>
+<body>
+    <div id="nav">
+        <h2 id="title">CODEX</h2>
+        <ul id="nav-con">
+            <li class="nav-a"><a href="index.html">Home</a></li>
+            <li class="nav-a" id="dropdown">
+                <a href="">Services</a>
+                <div id="drop-con">
+                    <a href="web-dev.html">Web Development</a>
+                    <a href="python.html">Python Programming</a>
+                    <a href="data-struc.html">Data Structures</a>
+                </div>
+            </li>
+            <li><a href="register.html">Register</a></li>
+            <li class="nav-a"><a href="about.html">About</a></li>
+            <li class="nav-a"><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+    <section id="hero">
+        <h1 style="font-size: 2.5em; padding: 5px; backface-visibility: blur(80px);">Learn to Code, Build Your Future</h1>
+        <p style="margin-bottom: 50px; padding: 5px; width: 550px; backface-visibility: blur(80px);">Interactive lessons, real-world projects, and mentorship to take your skills to the next level.</p>
+        <a href="#courses" id="btn">Get Started</a>
+    </section>
+    <section id="courses" style="padding: 80px;">
+        <h1 class="heading" style="text-align: center; color: #0056b3;">Our Popular Courses</h1>
+        <div style="display: flex; justify-content: space-around;">
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <h2>Web Development</h2>
+                <p class="p">Learn HTML, CSS, and JavaScript to build modern websites.</p>
+                <a href="web-dev.html" style="color: #007BFF; text-decoration: none;">Learn More</a>
+            </div>
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <h2>Python Programming</h2>
+                <p class="p">Master Python for data science, AI, and web development.</p>
+                <a href="pyth.html" style="color: #007BFF; text-decoration: none;">Learn More</a>
+            </div>
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <h2>Data Structures</h2>
+                <p class="p">Understand algorithms and solve complex problems efficiently.</p>
+                <a href="data-struc.html" style="color: #007BFF; text-decoration: none;">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="testimonials" style="margin:100px;margin-left: 200px; border-radius:12px; padding: 30px; width: 1000px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; border:1px black; border-style: hidden;">
+        <h1 class="heading" style="text-align: center; color: #0056b3;">What Our Students Say</h1>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <p class="p">"Thanks to this platform, I landed my dream job!"</p>
+                <p>- John Doe</p>
+            </div>
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <p class="p">"The projects helped me build a strong portfolio."</p>
+                <p>- Jane Smith</p>
+            </div>
+            <div style="width: 30%; margin: 10px; text-align: center;">
+                <p class="p">"The mentors were incredibly supportive and knowledgeable."</p>
+                <p>- Alex Lee</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 CODEX. All Rights Reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Twitter</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p style="display: inline;">Gmail:</p>
+        <a style="text-decoration: underline; color: #007BFF;">codex.gmail.com</a><br>
+        <p style="display: inline;">Ph:</p>
+        <p style="color: #007BFF; display: inline; text-decoration: underline;" >9898987677</p>
+    </footer>
+    
+    
+</body>
+</html>

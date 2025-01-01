@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72762.jpg") ;
+            background-size: cover;
+            font-family: 'georgia';
+        }
+        #hero-webdev {
+            position: relative;
+            display: inline-block;
+            padding: 150px 100px;
+        }
+
+        #hero-webdev h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        #hero-webdev p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        #hero-webdev a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+ 
+        #content {
+            padding: 50px 50px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8em;
+            color: #444;
+            border: 1px;
+            border-style: inset;
+            border-radius: 13px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #con-h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.5em;
+        }
+
+        #content .topic {
+            margin-bottom: 40px;
+        }
+
+        #content .topic h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+
+        #content .topic p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+ 
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        img{
+            margin-top: 30px;
+            margin-left: 10px;
+            position: absolute;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h2 id="title">CODEX</h2>
+        <ul id="nav-con">
+            <li class="nav-a"><a href="index.html">Home</a></li>
+            <li class="nav-a" id="dropdown">
+                <a href="">Services</a>
+                <div id="drop-con">
+                    <a href="web-dev.html">Web Development</a>
+                    <a href="python.html">Python Programming</a>
+                    <a href="data-struc.html">Data Structures</a>
+                </div>
+            </li>
+            <li><a href="register.html">Register</a></li>
+            <li class="nav-a"><a href="about.html">About</a></li>
+            <li class="nav-a"><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+     
+    <section id="hero-webdev">
+        <h1>Master the Art of Web Development</h1>
+        <p style="width: 500px;">Dive into the world of web technologies and build websites that stand out. From beginner to advanced, we’ve got you covered.</p>
+        <a href="#content" style="background-color: black;">Start Learning</a>
+    </section>
+    <img src="https://www.topuniversities.com/modules/custom/QSModMatchingTool/asset/images/group-22.svg" alt="" >
+   
+    <h2 id="con-h2">Comprehensive Web Development Curriculum</h2>
+     
+    <section id="content">
+        
+
+        <div class="topic">
+            <h3>1. HTML: The Foundation of the Web</h3>
+            <p>HTML (HyperText Markup Language) is the backbone of every website. You'll learn:</p>
+            <ul>
+                <li>Structuring content using semantic HTML tags.</li>
+                <li>Creating forms for user input.</li>
+                <li>Embedding multimedia elements like images, videos, and audio.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>2. CSS: Styling Your Website</h3>
+            <p>CSS (Cascading Style Sheets) is what makes websites visually appealing. Topics include:</p>
+            <ul>
+                <li>Applying colors, fonts, and layout techniques.</li>
+                <li>Using Flexbox and Grid for responsive design.</li>
+                <li>Adding transitions, animations, and hover effects.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>3. JavaScript: Bringing Interactivity to Your Website</h3>
+            <p>JavaScript adds dynamic behavior to your web pages. You'll learn:</p>
+            <ul>
+                <li>Manipulating the DOM to create interactive elements.</li>
+                <li>Handling events like clicks, hovers, and inputs.</li>
+                <li>Working with APIs to fetch and display data dynamically.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>4. Responsive Design: Build for All Devices</h3>
+            <p>With mobile-first design principles, you'll create websites that look great on any device. Topics include:</p>
+            <ul>
+                <li>Using media queries for responsiveness.</li>
+                <li>Designing layouts that adapt to different screen sizes.</li>
+                <li>Optimizing images and assets for performance.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>5. Introduction to Frameworks</h3>
+            <p>Get a head start on popular frameworks that speed up development:</p>
+            <ul>
+                <li>Bootstrap for quick and responsive designs.</li>
+                <li>React.js for building powerful, dynamic user interfaces.</li>
+                <li>Vue.js as a lightweight alternative for modern web apps.</li>
+            </ul>
+        </div>
+    </section>
+    <a href="register.html" style="background-color: black; color: white; border-radius: 12px; padding:12px 30px; font-size: large; margin-left: 45%; margin-top: 40px; text-decoration: none;display:inline-block;">Register Now</a>
+    <footer id="footer" style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 CODEX. All Rights Reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Twitter</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p style="display: inline;">Gmail:</p>
+        <a style="text-decoration: underline; color: #007BFF;">codex.gmail.com</a><br>
+        <p style="display: inline;">Ph:</p>
+        <p style="color: #007BFF; display: inline; text-decoration: underline;" >9898987677</p>
+    </footer>
+</body>
+</html>

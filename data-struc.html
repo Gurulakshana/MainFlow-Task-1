@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72762.jpg") ;
+            background-size: cover;
+            font-family: 'georgia';
+        }
+        
+        #hero-ds {
+            padding: 60px 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        #hero-ds h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        #hero-ds p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        #hero-ds a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+ 
+        #content {
+            padding: 50px 50px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8em;
+            color: #444;
+            border: 1px;
+            border-style: inset;
+            border-radius: 13px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #con-h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        #content .topic {
+            margin-bottom: 40px;
+        }
+
+        #content .topic h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+
+        #content .topic p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+ 
+        #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        #img{
+            background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230706095706/intro-data-structure-%E2%80%93-1.png");
+            background-size: cover;
+            background-position: center;
+            width: 900px;
+            height: 280px;
+            margin-left: 300px;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h2 id="title">CODEX</h2>
+        <ul id="nav-con">
+            <li class="nav-a"><a href="index.html">Home</a></li>
+            <li class="nav-a" id="dropdown">
+                <a href="">Services</a>
+                <div id="drop-con">
+                    <a href="web-dev.html">Web Development</a>
+                    <a href="python.html">Python Programming</a>
+                    <a href="data-struc.html">Data Structures</a>
+                </div>
+            </li>
+            <li><a href="register.html">Register</a></li>
+            <li class="nav-a"><a href="about.html">About</a></li>
+            <li class="nav-a"><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+    <section id="hero-ds">
+        <h1>Master Data Structures</h1>
+        <p>Learn the fundamental building blocks of computer science to solve complex problems efficiently.</p>
+        <a href="#content" style="background-color: black;">Start Exploring</a>
+    </section>
+    <div id="img"></div>
+    <h2 id="con-h2">Comprehensive Data Structures Curriculum</h2>
+ 
+    <section id="content">
+        
+        <div class="topic">
+            <h3>1. Introduction to Data Structures</h3>
+            <p>Understand the importance of data structures in programming and problem-solving. Topics covered:</p>
+            <ul>
+                <li>What are data structures?</li>
+                <li>Classification of data structures: Linear and Non-linear.</li>
+                <li>Choosing the right data structure for a problem.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>2. Arrays and Linked Lists</h3>
+            <p>Learn the basics of storing and accessing data in arrays and linked lists:</p>
+            <ul>
+                <li>Introduction to arrays: Static and dynamic arrays.</li>
+                <li>Singly and doubly linked lists.</li>
+                <li>Applications and common operations: Traversal, insertion, deletion.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>3. Stacks and Queues</h3>
+            <p>Explore linear data structures for organizing data:</p>
+            <ul>
+                <li>Understanding stacks: LIFO principle.</li>
+                <li>Introduction to queues and priority queues.</li>
+                <li>Applications: Expression evaluation, scheduling, and more.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>4. Trees and Graphs</h3>
+            <p>Dive into hierarchical and interconnected data structures:</p>
+            <ul>
+                <li>Binary trees, binary search trees, and AVL trees.</li>
+                <li>Graph basics: Representation using adjacency list and matrix.</li>
+                <li>Graph traversal algorithms: BFS and DFS.</li>
+            </ul>
+        </div>
+
+        <div class="topic">
+            <h3>5. Hashing and Advanced Topics</h3>
+            <p>Explore advanced data structures and optimization techniques:</p>
+            <ul>
+                <li>Hash tables and collision resolution methods.</li>
+                <li>Heaps: Min-heap, max-heap, and heap sort.</li>
+                <li>Trie, segment tree, and disjoint-set union (DSU).</li>
+            </ul>
+        </div>
+    </section>
+    <a href="register.html" style="background-color: black; color: white; border-radius: 12px; padding:12px 30px; font-size: large; margin-left: 45%; margin-top: 40px; text-decoration: none;display:inline-block;">Register Now</a>
+    <footer id="footer" style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 CODEX. All Rights Reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">Twitter</a>, 
+            <a href="#" style="color: #007BFF; text-decoration: none;">LinkedIn</a>
+        </p>
+        <p style="display: inline;">Gmail:</p>
+        <a style="text-decoration: underline; color: #007BFF;">codex.gmail.com</a><br>
+        <p style="display: inline;">Ph:</p>
+        <p style="color: #007BFF; display: inline; text-decoration: underline;" >9898987677</p>
+    </footer>
+</body>
+</html>
